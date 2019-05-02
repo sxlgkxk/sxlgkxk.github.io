@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="// 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts6556&apos;));          // 指定图表的配置项和数据         var option = {     tooltip : {         trigger:">
+  <meta name="description" content="事件记录-3月31日           // 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts3260&apos;));          // 指定图表的配置项和数据         var option = {title: {text: &quot;时间记录&quot;,lin">
 <meta name="keywords" content="记录">
 <meta property="og:type" content="article">
 <meta property="og:title" content="时间记录报告">
 <meta property="og:url" content="http://yoursite.com/2019/05/02/时间记录报告/index.html">
 <meta property="og:site_name" content="gkxk&#39;s blog">
-<meta property="og:description" content="// 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts6556&apos;));          // 指定图表的配置项和数据         var option = {     tooltip : {         trigger:">
+<meta property="og:description" content="事件记录-3月31日           // 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts3260&apos;));          // 指定图表的配置项和数据         var option = {title: {text: &quot;时间记录&quot;,lin">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-05-02T03:37:03.018Z">
+<meta property="og:updated_time" content="2019-05-02T04:14:12.960Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="时间记录报告">
-<meta name="twitter:description" content="// 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts6556&apos;));          // 指定图表的配置项和数据         var option = {     tooltip : {         trigger:">
+<meta name="twitter:description" content="事件记录-3月31日           // 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts3260&apos;));          // 指定图表的配置项和数据         var option = {title: {text: &quot;时间记录&quot;,lin">
 
 
 
@@ -365,7 +365,7 @@
                 
               
 
-              <time title="Created: 2019-05-02 09:31:12 / Modified: 11:37:03" itemprop="dateCreated datePublished" datetime="2019-05-02T09:31:12+08:00">2019-05-02</time>
+              <time title="Created: 2019-05-02 09:31:12 / Modified: 12:14:12" itemprop="dateCreated datePublished" datetime="2019-05-02T09:31:12+08:00">2019-05-02</time>
             
 
             
@@ -428,74 +428,20 @@
       
 
       
-        <div id="echarts6556" style="width: 85%;height: 400px;margin: 0 auto"></div>
+        <h2 id="事件记录-3月31日"><a href="#事件记录-3月31日" class="headerlink" title="事件记录-3月31日"></a>事件记录-3月31日</h2><div id="echarts3260" style="width: 50%;height: 200px;margin: 0 auto"></div>
 <script src="http://echarts.baidu.com/dist/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6556'));
+        var myChart = echarts.init(document.getElementById('echarts3260'));
 
         // 指定图表的配置项和数据
-        var option = {
-    tooltip : {
-        trigger: 'axis',
-        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
-        }
-    },
-    legend: {
-        data:['利润', '支出', '收入']
-    },
-    grid: {
-        left: '3%',
-        right: '4%',
-        bottom: '3%',
-        containLabel: true
-    },
-    xAxis : [
-        {
-            type : 'value'
-        }
-    ],
-    yAxis : [
-        {
-            type : 'category',
-            axisTick : {show: false},
-            data : ['周一','周二','周三','周四','周五','周六','周日']
-        }
-    ],
-    series : [
-        {
-            name:'利润',
-            type:'bar',
-            itemStyle : {
-                normal: {
-                    label: {show: true, position: 'inside'}
-                }
-            },
-            data:[200, 170, 240, 244, 200, 220, 210]
-        },
-        {
-            name:'收入',
-            type:'bar',
-            stack: '总量',
-            itemStyle: {
-                normal: {
-                    label : {show: true}
-                }
-            },
-            data:[320, 302, 341, 374, 390, 450, 420]
-        },
-        {
-            name:'支出',
-            type:'bar',
-            stack: '总量',
-            itemStyle: {normal: {
-                label : {show: true, position: 'left'}
-            }},
-            data:[-120, -132, -101, -134, -190, -230, -210]
-        }
-    ]
-};
+        var option = {title: {text: "时间记录",link: "http://",
+subtext: "3月31日", 				//### 日期 ###
+textAlign: "center",x: "center"},tooltip: {trigger: "axis"},toolbox: {show: true,feature: {mark: {show: true},dataView: {show: true,readOnly: true},magicType: {show: false,type: ["line", "bar"]},restore: {show: true},saveAsImage: {show: true}}},calculable: true,xAxis: [{type: "category",
+data: ["目标", "缓冲", "未知", "吃饭", "睡"],  	//### 事项 ###
+name: "事项",nameLocation: "end"}],yAxis: [{type: "value",name: "时长",nameLocation: "end",max: 12}],series: [{name: "时长",type: "bar",
+data: [5, 4, 3, 2, 6],  			//### 时长 ###
+barWidth: 45,itemStyle: {normal: {color: "rgb(86, 170, 255)"}}}]}
 
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
@@ -595,8 +541,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -616,7 +571,7 @@
                  <span class="site-state-item-name">访客量</span>
             </div>
             <div class="site-state-item site-state-posts">
-                  <span class="site-state-item-count">9.9k</span>
+                  <span class="site-state-item-count">9.8k</span>
                   <span class="site-state-item-name">总字数</span>
             </div>
             <nav class="site-state motion-element">
@@ -736,6 +691,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#事件记录-3月31日"><span class="nav-number">1.</span> <span class="nav-text">事件记录-3月31日</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
