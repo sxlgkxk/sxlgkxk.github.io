@@ -108,7 +108,7 @@
 <meta property="og:image" content="http://yoursite.com/2018/09/23/自动控制原理/射频通信电路.assets/gif-1537439285927.gif">
 <meta property="og:image" content="http://yoursite.com/2018/09/23/自动控制原理/射频通信电路.assets/gif-1537439285864.gif">
 <meta property="og:image" content="http://yoursite.com/2018/09/23/自动控制原理/射频通信电路.assets/gif-1537439285946.gif">
-<meta property="og:updated_time" content="2019-05-02T02:05:30.969Z">
+<meta property="og:updated_time" content="2019-05-02T02:18:01.072Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="自动控制原理">
 <meta name="twitter:description" content="被控对象 被控变量 期望目标  频域 描述闭环控制系统 信号: 输入量: 给定量 r 输出量: 被控量 y 控制量: 控制器产生的信号 a 反馈量: 从输出端取出送回系统, 与输出信号相同时, 称为单位反馈 f 偏差量 :输入信号与反馈信号差值 e 控制系统分类 依据结构  开环 闭环  依据输入信号特征  恒值 随动  依据输入信号变化特征  连续 离散  按系统固有内在特性  线性 非线性">
@@ -385,7 +385,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-05-02 10:05:30" itemprop="dateModified" datetime="2019-05-02T10:05:30+08:00">2019-05-02</time>
+                <time title="Modified: 2019-05-02 10:18:01" itemprop="dateModified" datetime="2019-05-02T10:18:01+08:00">2019-05-02</time>
               
             
           </span>
@@ -598,7 +598,7 @@
                  <span class="site-state-item-name">访客量</span>
             </div>
             <div class="site-state-item site-state-posts">
-                  <span class="site-state-item-count">9.6k</span>
+                  <span class="site-state-item-count">9.7k</span>
                   <span class="site-state-item-name">总字数</span>
             </div>
             <nav class="site-state motion-element">
@@ -1160,12 +1160,10 @@
           if (results.length > 0) {
             var counter = results[0];
             
-            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text(counter.time + 1);
             
-              .done(function() {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.time + 1);
-              })
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
             
               .fail(function ({ responseJSON }) {
                 console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);

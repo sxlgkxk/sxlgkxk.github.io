@@ -103,7 +103,7 @@
 <meta property="og:site_name" content="gkxk&#39;s blog">
 <meta property="og:description" content="最近更改 最近评论 网站更新 google广告移除   随机页面 游戏大厅 ZYB塔防游戏   透明度报告 内容移除请求   wiki守则 格式标准 申请编制 站务管理 讨论版(用户) 讨论版(游客) 广告 地址更新器 人物 国际巨星 二线明星 炼铜术士 神秘人 升级人 女人 噔噔咚 蘑菇人 音Lè人 纸片人 拆腻子 洋垃圾 废物(人物列表) 普通话教材(黑话列表-创语) 恶俗之最   文章 文">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-05-02T02:05:30.969Z">
+<meta property="og:updated_time" content="2019-05-02T02:18:01.072Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="esuwiki测评">
 <meta name="twitter:description" content="最近更改 最近评论 网站更新 google广告移除   随机页面 游戏大厅 ZYB塔防游戏   透明度报告 内容移除请求   wiki守则 格式标准 申请编制 站务管理 讨论版(用户) 讨论版(游客) 广告 地址更新器 人物 国际巨星 二线明星 炼铜术士 神秘人 升级人 女人 噔噔咚 蘑菇人 音Lè人 纸片人 拆腻子 洋垃圾 废物(人物列表) 普通话教材(黑话列表-创语) 恶俗之最   文章 文">
@@ -379,7 +379,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-05-02 10:05:30" itemprop="dateModified" datetime="2019-05-02T10:05:30+08:00">2019-05-02</time>
+                <time title="Modified: 2019-05-02 10:18:01" itemprop="dateModified" datetime="2019-05-02T10:18:01+08:00">2019-05-02</time>
               
             
           </span>
@@ -596,7 +596,7 @@
                  <span class="site-state-item-name">访客量</span>
             </div>
             <div class="site-state-item site-state-posts">
-                  <span class="site-state-item-count">9.6k</span>
+                  <span class="site-state-item-count">9.7k</span>
                   <span class="site-state-item-name">总字数</span>
             </div>
             <nav class="site-state motion-element">
@@ -1158,12 +1158,10 @@
           if (results.length > 0) {
             var counter = results[0];
             
-            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text(counter.time + 1);
             
-              .done(function() {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.time + 1);
-              })
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
             
               .fail(function ({ responseJSON }) {
                 console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);

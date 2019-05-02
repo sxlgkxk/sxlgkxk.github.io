@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="gkxk&#39;s blog">
 <meta property="og:description" content="zhihu 人物评价  如何评价《创造101》的杨超越？  如何评价杨超越强大的观众缘？  杨超越哪张照片最好看？  如何看待杨超越出席 2018 「影响中国」荣誉盛典并荣获年度演艺人物称号？  如何评价杨超越在《创造101》中的表现？  为什么杨超越唱跳实力一般但是有这么多人喜欢？ 人物经历  如何看待《创造101》总决赛杨超越第三名出道？  如何评价《送一百位女孩回家》第二季杨超越在里面的表">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-05-02T02:05:30.969Z">
+<meta property="og:updated_time" content="2019-05-02T02:18:01.072Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="杨超越测评">
 <meta name="twitter:description" content="zhihu 人物评价  如何评价《创造101》的杨超越？  如何评价杨超越强大的观众缘？  杨超越哪张照片最好看？  如何看待杨超越出席 2018 「影响中国」荣誉盛典并荣获年度演艺人物称号？  如何评价杨超越在《创造101》中的表现？  为什么杨超越唱跳实力一般但是有这么多人喜欢？ 人物经历  如何看待《创造101》总决赛杨超越第三名出道？  如何评价《送一百位女孩回家》第二季杨超越在里面的表">
@@ -380,7 +380,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-05-02 10:05:30" itemprop="dateModified" datetime="2019-05-02T10:05:30+08:00">2019-05-02</time>
+                <time title="Modified: 2019-05-02 10:18:01" itemprop="dateModified" datetime="2019-05-02T10:18:01+08:00">2019-05-02</time>
               
             
           </span>
@@ -548,7 +548,7 @@
                  <span class="site-state-item-name">访客量</span>
             </div>
             <div class="site-state-item site-state-posts">
-                  <span class="site-state-item-count">9.6k</span>
+                  <span class="site-state-item-count">9.7k</span>
                   <span class="site-state-item-name">总字数</span>
             </div>
             <nav class="site-state motion-element">
@@ -1110,12 +1110,10 @@
           if (results.length > 0) {
             var counter = results[0];
             
-            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text(counter.time + 1);
             
-              .done(function() {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.time + 1);
-              })
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
             
               .fail(function ({ responseJSON }) {
                 console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
