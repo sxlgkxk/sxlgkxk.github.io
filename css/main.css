@@ -1765,7 +1765,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa814;
+  background: #117362;
 }
 .feed-link,
 .chat {
@@ -2960,4 +2960,19 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.container {
+  background-color: rgba(0,0,0,0.75);
+}
+.post-block {
+  background-color: #bbb;
+}
+.comments {
+  background-color: #bbb;
+}
+.header-inner {
+  background-color: #bbb;
+}
+.sidebar-inner {
+  background-color: #bbb;
 }
