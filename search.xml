@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[vim]]></title>
+    <url>%2F2019%2F11%2F09%2Fvim%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[linux]]></title>
     <url>%2F2019%2F11%2F09%2Flinux%2F</url>
     <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot;]]></content>
