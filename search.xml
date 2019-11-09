@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[vim]]></title>
     <url>%2F2019%2F11%2F09%2Fvim%2F</url>
-    <content type="text"><![CDATA[知识点sites zhihu-vim]]></content>
+    <content type="text"><![CDATA[知识点 居中 zz: 当前行居中 zt: 当前行居屏幕顶端 zb: 当前行居屏幕底端 屏幕整体移动 c-y: 向上一行 c-e: 向下一行 sites zhihu-vim]]></content>
       <categories>
         <category>tech</category>
       </categories>
