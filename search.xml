@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[linux]]></title>
     <url>%2F2019%2F11%2F11%2Flinux%2F</url>
-    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 manjaro]]></content>
+    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu]]></content>
       <categories>
         <category>tech</category>
       </categories>
