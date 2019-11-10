@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[blog]]></title>
+    <url>%2F2019%2F11%2F10%2Fblog%2F</url>
+    <content type="text"><![CDATA[知识点 markdown convert to html use_travis_deploy_github_blog_automatically https sites]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[fish]]></title>
     <url>%2F2019%2F11%2F10%2Ffish%2F</url>
     <content type="text"><![CDATA[知识点 set word 23: 设置变量 echo $word {$word} $status: 上一条命令的结果 (date): 命令替换 命令组合: and/or 命令行参数: argv[0] 条件判定 重定向 sitesconfig1234567891011121314151617181920vi ~/.config/fish/config.fishset fish_greeting &apos;Talk is cheap. Show me the code.&apos;set fish_user_paths /home/gkxk/repo/binfunction sshtermux ssh u0_a182@192.168.0.143 -p 8022 #ssh u0_a182@192.168.43.1 -p 8022endfunction sshvultr mosh root@108.160.135.157endalias vi nvimalias r rangeralias t tmuxalias lt &quot;ls -t&quot;set EDITOR nvim]]></content>
