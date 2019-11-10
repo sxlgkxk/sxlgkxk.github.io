@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ubuntu]]></title>
+    <url>%2F2019%2F11%2F10%2Fubuntu%2F</url>
+    <content type="text"><![CDATA[安装 winwin-E，管理，磁盘管理 input method ibus: intelligent pinyin c-s-p: change half/full width punc c-,: 切换全角半角符号 fcitx: sogou pinyin]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[linux]]></title>
     <url>%2F2019%2F11%2F10%2Flinux%2F</url>
     <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法]]></content>
