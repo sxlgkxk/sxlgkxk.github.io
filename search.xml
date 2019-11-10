@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[blog]]></title>
     <url>%2F2019%2F11%2F10%2Fblog%2F</url>
-    <content type="text"><![CDATA[知识点 markdown convert to html use_travis_deploy_github_blog_automatically https flask临时证书 自签名证书 letsencrypt sites]]></content>
+    <content type="text"><![CDATA[知识点 markdown convert to html use_travis_deploy_github_blog_automatically https flask临时证书: 本地pip安装失败 12sudo apt-get install libssl-devpip3 install pyOpenSSL 自签名证书: openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365 cert.pem存储证书,key.pem存储私匙 letsencrypt certbot: 自动化程序 html劫持 framekiller12345if(self == top) &#123; document.documentElement.style.display = &apos;block&apos;; &#125; else &#123; top.location = self.location; &#125; sites]]></content>
       <categories>
         <category>tech</category>
       </categories>
