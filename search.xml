@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[dB单位]]></title>
+    <url>%2F2019%2F11%2F16%2FdB%E5%8D%95%E4%BD%8D%2F</url>
+    <content type="text"><![CDATA[功率计算时前面乘10, 电流电压计算时前面乘20: $10lg(\frac{P1}{P0}=210lg(\frac{U_1}{U_0})$dBm计算时，功率除以1mW。dBm减去另一个dBm时得到结果是dB，如$30dBm-0dBm=30dB$，如信号功率除以噪声功率就是信躁比SNR$10lg(0.5)=-3$, -3dB点处功率为一般，此时$H(\omega)$为$H(0)$的一半]]></content>
+      <categories>
+        <category>tech/专业领域</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[git]]></title>
     <url>%2F2019%2F11%2F15%2Fgit%2F</url>
     <content type="text"><![CDATA[知识点 删除文件: git rm -r * 1234567891011121314151617181920212223242526272829303132333435363738394041424344git config credential.helper storegit config user.name Jmailboxgit config user.email Jmailbox@163.com git config --global http.proxy http://127.0.0.1:8118git config --global https.proxy http://127.0.0.1:8118git config --get --global http.proxygit config --get --global https.proxygit config --global --unset http.proxygit config --global --unset https.proxygit config --global http.sslVerify false written by gkxk at 2019-09-20 23:50***git branch new_branchgit checkout to_another_branchgit branch:list all branchgit branch -d delete_branchtravisclone git@ github.com: fighting41love/funNLP.gitgit remote -v远程主机名叫origingit pull origin branch:local_branchpull等同于fetch+merge缩写git pullgit push origin local_branch:branch缩写git push]]></content>
@@ -356,14 +364,6 @@
     <title><![CDATA[Digital_Signal_Processing]]></title>
     <url>%2F2019%2F11%2F11%2FDigital_Signal_Processing%2F</url>
     <content type="text"><![CDATA[离散信号与系统分析1. 离散时间信号2. 离散时间系统3. 离散时间信号的频域分析4. 离散时间系统的频域分析5. 离散时间信号的复频域分析6. 离散时间系统的复频域分析7. 全通滤波器与最小相位系统8. 信号时域抽样与信号重建离散傅立叶分析1. 有限长序列的傅立叶分析2. 离散傅立叶变换的性质3. 离散傅立叶变换与z变换的性质4. 利用DFT计算线性卷积5. 利用DFT分析线性卷积离散傅立叶变换快速算法1. 基2时间抽取FFT算法2. 基2频率抽取FFT算法3. 基4时间抽取FFT算法4. 混合基FFT算法5. 实序列的DFT算法6. IDFT的快速计算方法IIR数字滤波器的设计1. 模拟低通滤波器设计2. 模拟非低通滤波器设计3. 脉冲响应不变法4. 双线性变换法FIR数字滤波器的设计1. 线性相位FIR滤波器的特性2. 窗函数法设计线性相位FIR滤波器3. 频率取样法设计线性相位FIR滤波器4. 线性相位FIR滤波器的优化设计5. FIR与IIR数字滤波器的比较数字滤波器的结构与实现1. IIR数字滤波器的基本结构2. FIR数字滤波器的基本结构3. 有限字长效应多速率信号处理基础1. 多速率系统中的基本单元2. 抽取滤波器和内插滤波器3. 多相分解4. 两通道滤波器组的基本概念信号时域分析与小波分析1. 短时傅立叶变换2. 小波展开与小波变换3. 小波变换与多分辨分析4. 小波变换与滤波器组5. 基于小波的信号处理与应用习题 40 p12-41 21 p49-62 13 p69-77 20 p85-104 29 p112-137 12 p143-150 15 p157-170 16 p179-189]]></content>
-      <categories>
-        <category>tech/专业领域</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[dB单位]]></title>
-    <url>%2F2019%2F11%2F11%2FdB%E5%8D%95%E4%BD%8D%2F</url>
-    <content type="text"><![CDATA[功率计算时前面乘10, 电流电压计算时前面乘20: $10lg(\frac{P1}{P0}=210lg(\frac{U_1}{U_0})$dBm计算时，功率除以1mW。dBm减去另一个dBm时得到结果是dB，如$30dBm-0dBm=30dB$，如信号功率除以噪声功率就是信躁比SNR$10lg(0.5)=-3$, -3dB点处功率为一般，此时$H(\omega)$为$H(0)$的一半]]></content>
       <categories>
         <category>tech/专业领域</category>
       </categories>
