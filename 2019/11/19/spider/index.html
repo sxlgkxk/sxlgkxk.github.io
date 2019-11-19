@@ -96,17 +96,17 @@
 
 
 
-  <meta name="description" content="知识点 chrome_headless 解析网页 pyquery 正则   请求方式 requests 表单 代理proxy 浏览器伪装 访问频率 断线重连 ajax请求   身份验证 验证码 cookies   数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使用单线程, 就能达到多线程/进程的效果的工具       新技术扩展 浏览器自动化 scrapy高级爬虫 整合了爬">
+  <meta name="description" content="知识点 chrome_headless 解析网页 pyquery 正则   请求方式 requests 表单 ip池 python proxyPool.py webserver python proxyPool.py schedule   浏览器伪装 访问频率 断线重连 ajax请求   身份验证 验证码 cookies   数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使">
 <meta property="og:type" content="article">
 <meta property="og:title" content="spider">
-<meta property="og:url" content="http://yoursite.com/2019/11/17/spider/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/11/19/spider/index.html">
 <meta property="og:site_name" content="gkxk&#39;s blog">
-<meta property="og:description" content="知识点 chrome_headless 解析网页 pyquery 正则   请求方式 requests 表单 代理proxy 浏览器伪装 访问频率 断线重连 ajax请求   身份验证 验证码 cookies   数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使用单线程, 就能达到多线程/进程的效果的工具       新技术扩展 浏览器自动化 scrapy高级爬虫 整合了爬">
+<meta property="og:description" content="知识点 chrome_headless 解析网页 pyquery 正则   请求方式 requests 表单 ip池 python proxyPool.py webserver python proxyPool.py schedule   浏览器伪装 访问频率 断线重连 ajax请求   身份验证 验证码 cookies   数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-11-08T07:47:24.000Z">
+<meta property="og:updated_time" content="2019-11-19T15:48:22.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="spider">
-<meta name="twitter:description" content="知识点 chrome_headless 解析网页 pyquery 正则   请求方式 requests 表单 代理proxy 浏览器伪装 访问频率 断线重连 ajax请求   身份验证 验证码 cookies   数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使用单线程, 就能达到多线程/进程的效果的工具       新技术扩展 浏览器自动化 scrapy高级爬虫 整合了爬">
+<meta name="twitter:description" content="知识点 chrome_headless 解析网页 pyquery 正则   请求方式 requests 表单 ip池 python proxyPool.py webserver python proxyPool.py schedule   浏览器伪装 访问频率 断线重连 ajax请求   身份验证 验证码 cookies   数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使">
 
 
 
@@ -114,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/11/17/spider/">
+  <link rel="canonical" href="http://yoursite.com/2019/11/19/spider/">
 
 
 
@@ -321,7 +321,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/17/spider/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/19/spider/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="SUN XiangLong">
@@ -364,25 +364,9 @@
                 
               
 
-              <time title="Created: 2019-11-17 22:44:06" itemprop="dateCreated datePublished" datetime="2019-11-17T22:44:06+08:00">2019-11-17</time>
+              <time title="Created: 2019-11-19 23:48:22" itemprop="dateCreated datePublished" datetime="2019-11-19T23:48:22+08:00">2019-11-19</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2019-11-08 15:47:24" itemprop="dateModified" datetime="2019-11-08T15:47:24+08:00">2019-11-08</time>
-              
             
           </span>
 
@@ -417,8 +401,8 @@
                 </span>
             
                 <span class="post-meta-item-text">Comments: </span>
-                <a href="/2019/11/17/spider/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/11/17/spider/" itemprop="commentCount"></span>
+                <a href="/2019/11/19/spider/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/11/19/spider/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -426,7 +410,7 @@
 
           
           
-            <span id="/2019/11/17/spider/" class="leancloud_visitors" data-flag-title="spider">
+            <span id="/2019/11/19/spider/" class="leancloud_visitors" data-flag-title="spider">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -467,7 +451,11 @@
 <li>请求方式<ul>
 <li>requests</li>
 <li>表单</li>
-<li>代理proxy</li>
+<li>ip池<ul>
+<li><code>python proxyPool.py webserver</code></li>
+<li><code>python proxyPool.py schedule</code></li>
+</ul>
+</li>
 <li>浏览器伪装</li>
 <li>访问频率</li>
 <li>断线重连</li>
@@ -545,8 +533,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/11/17/strawberrypi/" rel="next" title="strawberrypi">
-                <i class="fa fa-chevron-left"></i> strawberrypi
+              <a href="/2019/11/19/redis/" rel="next" title="redis">
+                <i class="fa fa-chevron-left"></i> redis
               </a>
             
           </div>
@@ -554,10 +542,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/11/17/repo_index/" rel="prev" title="repo_index">
-                repo_index <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -925,8 +909,8 @@
 
 <script>
   var disqus_config = function() {
-    this.page.url = "http://yoursite.com/2019/11/17/spider/";
-    this.page.identifier = "2019/11/17/spider/";
+    this.page.url = "http://yoursite.com/2019/11/19/spider/";
+    this.page.identifier = "2019/11/19/spider/";
     this.page.title = 'spider';
     };
   function loadComments() {
