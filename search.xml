@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[python3]]></title>
+    <url>%2F2019%2F11%2F19%2Fpython3%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>tech/linux技术</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[chrome_headless]]></title>
     <url>%2F2019%2F11%2F18%2Fchrome_headless%2F</url>
     <content type="text"><![CDATA[12345678910111213141516171819202122from selenium import webdriver # 进入浏览器设置options = webdriver.ChromeOptions()#谷歌无头模式options.add_argument(&apos;--headless&apos;)options.add_argument(&apos;--disable-gpu&apos;)# options.add_argument(&apos;window-size=1200x600&apos;)# 设置中文options.add_argument(&apos;lang=zh_CN.UTF-8&apos;)# 更换头部options.add_argument(&apos;user-agent=&quot;Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; ja-jp) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F137 Safari/525.20&quot;&apos;)#设置代理if proxy:options.add_argument(&apos;proxy-server=&apos; + proxy)if user_agent:options.add_argument(&apos;user-agent=&apos; + user_agent) browser = webdriver.Chrome(chrome_options=options)url = &quot;https://httpbin.org/get?show_env=1&quot;browser.get(url)browser.quit()]]></content>
