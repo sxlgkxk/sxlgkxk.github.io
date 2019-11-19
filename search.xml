@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linux]]></title>
+    <url>%2F2019%2F11%2F19%2Flinux%2F</url>
+    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu fzf:]]></content>
+      <categories>
+        <category>tech/linux技术</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[python3]]></title>
     <url>%2F2019%2F11%2F19%2Fpython3%2F</url>
     <content type="text"><![CDATA[redis sites blog教程 pip3 install redis 键值对 db.set(key,value) db.expire(key,seconds) db.get(key) list db.lpush(name,value) db]]></content>
@@ -198,14 +206,6 @@
     <content type="text"><![CDATA[d3 : 88.2k 复杂，不能快速创建简单图表 chart.js : 45.8k github简单，类型少，用户友好 echarts : 37.4k chart.js none]]></content>
       <categories>
         <category>tech/网站全栈</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[linux]]></title>
-    <url>%2F2019%2F11%2F17%2Flinux%2F</url>
-    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu]]></content>
-      <categories>
-        <category>tech/linux技术</category>
       </categories>
   </entry>
   <entry>
