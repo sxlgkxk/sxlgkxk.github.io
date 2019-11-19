@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[python3]]></title>
     <url>%2F2019%2F11%2F19%2Fpython3%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[redis sites blog教程 pip3 install redis db.set(key,value) db.expire(key,seconds) db.get(key)]]></content>
       <categories>
         <category>tech/linux技术</category>
       </categories>
