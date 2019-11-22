@@ -3,7 +3,15 @@
   <entry>
     <title><![CDATA[linux]]></title>
     <url>%2F2019%2F11%2F22%2Flinux%2F</url>
-    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool xdotool getmouselocation ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu fzf Plug &#39;~/.fzf&#39; git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf~/.fzf/install upgrading: cd ~/.fzf &amp;&amp; git pull &amp;&amp; ./install sites github/repo blog教程]]></content>
+    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool xdotool getmouselocation keys: site ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu fzf Plug &#39;~/.fzf&#39; git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf~/.fzf/install upgrading: cd ~/.fzf &amp;&amp; git pull &amp;&amp; ./install sites github/repo blog教程]]></content>
+      <categories>
+        <category>tech/linux技术</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[fish]]></title>
+    <url>%2F2019%2F11%2F22%2Ffish%2F</url>
+    <content type="text"><![CDATA[知识点 set word 23: 设置变量 echo $word {$word} $status: 上一条命令的结果 (date): 命令替换 命令组合: cmd1; and cmd2 命令行参数: argv[0] 条件判定: false and false 重定向 sitesconfig1234567891011121314151617181920vi ~/.config/fish/config.fishset fish_greeting &apos;Talk is cheap. Show me the code.&apos;set fish_user_paths /home/gkxk/repo/binfunction sshtermux ssh u0_a182@192.168.0.143 -p 8022 #ssh u0_a182@192.168.43.1 -p 8022endfunction sshvultr mosh root@108.160.135.157endalias vi nvimalias r rangeralias t tmuxalias lt &quot;ls -t&quot;set EDITOR nvim]]></content>
       <categories>
         <category>tech/linux技术</category>
       </categories>
@@ -164,14 +172,6 @@
     <title><![CDATA[configs]]></title>
     <url>%2F2019%2F11%2F17%2Fconfigs%2F</url>
     <content type="text"><![CDATA[termux12345678910111213141516171819termux-setup-storageapt install openssh -yapt install fish -yapt install neovim -yapt install python -yapt install nodejs -yapt install redis -yapt install aria2 -ypip3 install flaskpip3 install redispip3 install youtube-dlpip3 install you-getnpm i http-server -gnpm i pm2 -gchsh -s fishcurl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish vultr12345678910111213141516171819202122232425262728293031323334353637383940414243444546#!/usr/bin/bashbash &lt;(curl -L -s https://install.direct/go.sh)echo &apos;&#123; &quot;inbounds&quot;: [ &#123; &quot;port&quot;: 10086, &quot;protocol&quot;: &quot;vmess&quot;, &quot;settings&quot;: &#123; &quot;clients&quot;: [ &#123; &quot;id&quot;: &quot;b831381d-6324-4d53-ad4f-8cda48b30811&quot;, &quot;alterId&quot;: 64 &#125; ] &#125; &#125; ], &quot;outbounds&quot;: [ &#123; &quot;protocol&quot;: &quot;freedom&quot;, &quot;settings&quot;: &#123;&#125; &#125; ]&#125;&apos; &gt; /etc/v2ray/config.jsonservice v2ray start apt install neovim -yapt install zsh -yapt install python3-pip -yapt install python3 -yapt install nodejs -yapt install npm -yapt install redis -ypip3 install youtube-dlpip3 install you-getpip3 install flaskpip3 install redisnpm i -g pm2 npm i -g http-server]]></content>
-      <categories>
-        <category>tech/linux技术</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[fish]]></title>
-    <url>%2F2019%2F11%2F17%2Ffish%2F</url>
-    <content type="text"><![CDATA[知识点 set word 23: 设置变量 echo $word {$word} $status: 上一条命令的结果 (date): 命令替换 命令组合: and/or 命令行参数: argv[0] 条件判定 重定向 sitesconfig1234567891011121314151617181920vi ~/.config/fish/config.fishset fish_greeting &apos;Talk is cheap. Show me the code.&apos;set fish_user_paths /home/gkxk/repo/binfunction sshtermux ssh u0_a182@192.168.0.143 -p 8022 #ssh u0_a182@192.168.43.1 -p 8022endfunction sshvultr mosh root@108.160.135.157endalias vi nvimalias r rangeralias t tmuxalias lt &quot;ls -t&quot;set EDITOR nvim]]></content>
       <categories>
         <category>tech/linux技术</category>
       </categories>
