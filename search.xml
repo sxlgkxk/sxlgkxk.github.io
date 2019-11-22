@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[python3]]></title>
-    <url>%2F2019%2F11%2F22%2Fpython3%2F</url>
-    <content type="text"><![CDATA[redis sites blog教程 pip3 install redis 键值对 db.set(key,value) db.expire(key,seconds) db.get(key) list db.lpush(name,value) db paperclip blog教程 import pyperclip dd=pyperclip.paste() pyperclip.copy(&quot;docs.python.org&quot;)]]></content>
+    <title><![CDATA[tampermonkey]]></title>
+    <url>%2F2019%2F11%2F22%2Ftampermonkey%2F</url>
+    <content type="text"><![CDATA[sites]]></content>
       <categories>
-        <category>tech/linux技术</category>
+        <category>tech/爬虫</category>
       </categories>
   </entry>
   <entry>
     <title><![CDATA[spider]]></title>
     <url>%2F2019%2F11%2F22%2Fspider%2F</url>
-    <content type="text"><![CDATA[知识点 chrome_headless 解析网页 pyquery 正则 请求方式 requests 表单 ip池 python proxyPool.py webserver python proxyPool.py schedule 浏览器伪装 访问频率 断线重连 ajax请求 身份验证 验证码 cookies 数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使用单线程, 就能达到多线程/进程的效果的工具 新技术扩展 浏览器自动化 v2ex教程 scrapy高级爬虫 整合了爬取, 处理数据, 存储数据的一条龙服务 tampermonkey awesome spider sites 莫烦 gitbook 知乎问题，爬虫进阶 博客教程 link scrcpy框架 link 简书1 简书2 掘金 知乎专栏]]></content>
+    <content type="text"><![CDATA[知识点 chrome_headless 解析网页 pyquery 正则 请求方式 requests 表单 ip池 python proxyPool.py webserver python proxyPool.py schedule 浏览器伪装 访问频率 断线重连 ajax请求 身份验证 验证码 cookies 数据库存储 架构层优化 多线程 分布式 异步加载 asyncio 仅仅使用单线程, 就能达到多线程/进程的效果的工具 新技术扩展 浏览器自动化 v2ex教程 puppeteer playground zhihu教程 scrapy高级爬虫 整合了爬取, 处理数据, 存储数据的一条龙服务 tampermonkey awesome spider sites 莫烦 gitbook 知乎问题，爬虫进阶 博客教程 link scrcpy框架 link 简书1 简书2 掘金 知乎专栏]]></content>
       <categories>
         <category>tech/爬虫</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[python3]]></title>
+    <url>%2F2019%2F11%2F22%2Fpython3%2F</url>
+    <content type="text"><![CDATA[redis sites blog教程 pip3 install redis 键值对 db.set(key,value) db.expire(key,seconds) db.get(key) list db.lpush(name,value) db paperclip blog教程 import pyperclip dd=pyperclip.paste() pyperclip.copy(&quot;docs.python.org&quot;)]]></content>
+      <categories>
+        <category>tech/linux技术</category>
       </categories>
   </entry>
   <entry>
