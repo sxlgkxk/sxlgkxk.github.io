@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[tampermonkey]]></title>
     <url>%2F2019%2F11%2F22%2Ftampermonkey%2F</url>
-    <content type="text"><![CDATA[sites greasyfork sleazyfork 知识点 脚本安装, 自动更新, 运行状态, 内置编辑器 在指定url内运行指定的js脚本 管理面板 脚本属性 name, version, namespace, description, author, match blog教程1 blog教程2 操纵DOM 使用jquery 123456789101112131415161718// ==UserScript==// @name 第一个脚本// @namespace http://tampermonkey.net/// @version 0.1// @description try to take over the world!// @author You// @include *// @require http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js// @grant unsafeWindow// ==/UserScript==jQuery.noConflict();(function( $ ) &#123; debugger; var a=12; var b=45; var c = a+b; var d = a-b;&#125;)( jQuery );]]></content>
+    <content type="text"><![CDATA[sites tampermonkey.net greasyfork sleazyfork 知识点 脚本安装, 自动更新, 运行状态, 内置编辑器 在指定url内运行指定的js脚本 管理面板 脚本属性 name, version, namespace, description, author, match blog教程1 blog教程2 操纵DOM 使用jquery 脚本发布 个人帐号 脚本持续更新 1234567891011121314151617181920// ==UserScript==// @name 第一个脚本// @namespace http://sxlgkxk.github.io// @version 0.1// @description written by gkxk// @author gkxk// @include http://baidu.com// @include https://baidu.com// @require http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js// @grant none// ==/UserScript==/**/(function () &#123; &apos;use strict&apos;; // codes here&#125;)();]]></content>
       <categories>
         <category>tech/爬虫</category>
       </categories>
