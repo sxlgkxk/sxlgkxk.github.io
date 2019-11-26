@@ -2,8 +2,8 @@
 <search>
   <entry>
     <title><![CDATA[linux]]></title>
-    <url>%2F2019%2F11%2F22%2Flinux%2F</url>
-    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool xdotool getmouselocation keys: site ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu fzf Plug &#39;~/.fzf&#39; git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf~/.fzf/install upgrading: cd ~/.fzf &amp;&amp; git pull &amp;&amp; ./install sites github/repo blog教程]]></content>
+    <url>%2F2019%2F11%2F26%2Flinux%2F</url>
+    <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool xdotool getmouselocation keys: site ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu fzf Plug &#39;~/.fzf&#39; git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf~/.fzf/install upgrading: cd ~/.fzf &amp;&amp; git pull &amp;&amp; ./install sites github/repo blog教程 bash 文件存在: [ -d /path ] &amp;&amp; [ -f /file ] -h: 软链接, -L: 符号链接]]></content>
       <categories>
         <category>tech/linux技术</category>
       </categories>
