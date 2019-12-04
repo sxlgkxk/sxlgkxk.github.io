@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git]]></title>
+    <url>%2F2019%2F12%2F04%2Fgit%2F</url>
+    <content type="text"><![CDATA[知识点 删除文件: git rm -r * 123456789101112131415161718192021222324252627282930313233343536373839404142git config credential.helper storegit config user.name sxlgkxkgit config user.email sxlgkxk@gmail.com git config --global http.proxy http://127.0.0.1:8118git config --global https.proxy http://127.0.0.1:8118git config --get --global http.proxygit config --get --global https.proxygit config --global --unset http.proxygit config --global --unset https.proxygit config --global http.sslVerify false written by gkxk at 2019-09-20 23:50***git branch new_branchgit checkout to_another_branchgit branch:list all branchgit branch -d delete_branchtravisclone git@ github.com: fighting41love/funNLP.gitgit remote -v远程主机名叫origingit pull origin branch:local_branchpull等同于fetch+merge缩写git pullgit push origin local_branch:branch缩写git push]]></content>
+      <categories>
+        <category>tech/linux技术</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[linux]]></title>
     <url>%2F2019%2F11%2F26%2Flinux%2F</url>
     <content type="text"><![CDATA[tools curl xargs echo char pictures cowsay fortune xkill xdotool xdotool getmouselocation keys: site ranger find: find path filter actionfind / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; 查找文件内容find / -type f -name &quot;*.log&quot; | xargs grep &quot;ERROR&quot; date 格式化输出: date &quot;%Y-%m-%d&quot; 输入法 不同发行版 manjaro kubuntu fzf Plug &#39;~/.fzf&#39; git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf~/.fzf/install upgrading: cd ~/.fzf &amp;&amp; git pull &amp;&amp; ./install sites github/repo blog教程 bash 文件存在: [ -d /path ] &amp;&amp; [ -f /file ] -h: 软链接, -L: 符号链接]]></content>
@@ -190,14 +198,6 @@
     <content type="text"><![CDATA[声音 文件io 画板绘图 3d绘图 光影 3d纹理 摄影机 雾特效 标志板技术（远处用2d实时朝向摄影机，近处展示3d） 飘扬的旗帜 地形图 镜像 地图设计器 状态机 天空穹]]></content>
       <categories>
         <category>tech/游戏开发</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[git]]></title>
-    <url>%2F2019%2F11%2F17%2Fgit%2F</url>
-    <content type="text"><![CDATA[知识点 删除文件: git rm -r * 1234567891011121314151617181920212223242526272829303132333435363738394041424344git config credential.helper storegit config user.name Jmailboxgit config user.email Jmailbox@163.com git config --global http.proxy http://127.0.0.1:8118git config --global https.proxy http://127.0.0.1:8118git config --get --global http.proxygit config --get --global https.proxygit config --global --unset http.proxygit config --global --unset https.proxygit config --global http.sslVerify false written by gkxk at 2019-09-20 23:50***git branch new_branchgit checkout to_another_branchgit branch:list all branchgit branch -d delete_branchtravisclone git@ github.com: fighting41love/funNLP.gitgit remote -v远程主机名叫origingit pull origin branch:local_branchpull等同于fetch+merge缩写git pullgit push origin local_branch:branch缩写git push]]></content>
-      <categories>
-        <category>tech/linux技术</category>
       </categories>
   </entry>
   <entry>
